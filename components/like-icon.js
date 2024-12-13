@@ -1,3 +1,6 @@
+import { togglePostLikeStatus } from "@/actions/posts";
+
+
 export default function LikeButton() {
   return (
     <button className="like-button">
