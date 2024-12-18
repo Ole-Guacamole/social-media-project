@@ -10,6 +10,7 @@ export default function Header() {
         src={logo}
         // width={100}
         // height={100}
+        priority // Load the image as soon as possible, no lazy loading check
         sizes="10vw"
         alt="Mobile phone with posts feed on it" />
       </Link>
